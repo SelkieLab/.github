@@ -7,7 +7,7 @@
 不追求大而全，只做能装在自己机器上、一个人也维护得动的东西。<br>
 数据不出门，出问题能自己看代码修。
 
-[![Repos](https://img.shields.io/badge/repos-2-6b8afd?style=flat-square)](https://github.com/orgs/SelkieLab/repositories)
+[![Repos](https://img.shields.io/badge/repos-3-6b8afd?style=flat-square)](https://github.com/orgs/SelkieLab/repositories)
 [![License](https://img.shields.io/badge/license-MIT-3ddc97?style=flat-square)](https://github.com/SelkieLab/bot-panel/blob/main/LICENSE)
 [![Stack](https://img.shields.io/badge/python-stdlib%20only-f7c948?style=flat-square)](#)
 
@@ -42,6 +42,13 @@ PANEL_INIT_PASSWORD='你的密码' python3 server.py
 <sub>[README](https://github.com/SelkieLab/bot-panel#readme) · [部署](https://github.com/SelkieLab/bot-panel/tree/main/deploy) · [改造记录](https://github.com/SelkieLab/bot-panel/blob/main/docs/CHANGELOG-2026-10-23.md)</sub>
 
 ---
+
+## 其他
+
+| 仓库 | 用途 |
+|---|---|
+| [.github](https://github.com/SelkieLab/.github) | 本组织主页与社区健康文件（贡献指南、安全策略、行为准则） |
+| [selkielab.github.io](https://github.com/SelkieLab/selkielab.github.io) | 落地页源码，纯静态单页 |
 
 ## 取向
 
