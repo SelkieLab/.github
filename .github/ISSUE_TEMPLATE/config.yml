@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全问题
+    url: https://github.com/SelkieLab/.github/blob/main/SECURITY.md
+    about: 不要开公开 issue，请按安全策略私下报告
+  - name: 使用问题 / 讨论
+    url: https://github.com/orgs/SelkieLab/discussions
+    about: 装不上、报错看不懂、有想法，先来讨论区
+  - name: 贡献指南
+    url: https://github.com/SelkieLab/.github/blob/main/CONTRIBUTING.md
+    about: 提 PR 之前先看这里

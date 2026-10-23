@@ -1,0 +1,48 @@
+name: 报告问题
+description: 有东西没按预期工作
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        贴日志前请把口令、IP、域名、QQ 号删掉。
+
+  - type: dropdown
+    id: repo
+    attributes:
+      label: 涉及哪个项目
+      options:
+        - bot-panel
+        - 站点 selkielab.github.io
+        - 不确定
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: 版本 / commit
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志（已脱敏）
+      render: shell
+    validations:
+      required: false
